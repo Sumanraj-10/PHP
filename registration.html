@@ -1,0 +1,84 @@
+<html>
+<head></head>
+<body>
+<?php
+/*$temp = array(1,5,3,4,6,9,10,7,8,2);
+
+function average($temp){
+	$total = 0;
+	for($i=0;$i<count($temp);$i++){
+		$total += $temp[$i];
+	}
+	$avg = $total/count($temp);
+	echo"$avg<br>";
+	sort($temp);
+}
+
+function lowest($temp,$para){
+	sort($temp);
+	for($i=0;$i<$para;$i++){
+		echo"$temp[$i]";
+	}
+	echo"<br>";
+}
+
+
+function highest($temp,$para){
+	rsort($temp);
+	for($i=0;$i<$para;$i++){
+		echo"$temp[$i]";
+	}
+	echo"<br>";
+}
+
+
+sort($temp);
+for($i=0;$i<count($temp);$i++){
+	echo"$temp[$i]";
+}
+echo"<br>";
+average($temp);
+lowest($temp,3);
+highest($temp,3);
+$slice = array_slice($temp,1,4);
+print_r($slice);
+echo"<br>";
+print_r($temp);
+
+echo current($temp)."<br>";
+echo key($temp)."<br>";
+echo next($temp)."<br>";
+echo next($temp)."<br>";
+echo end($temp)."<br>";
+echo key($temp)."<br>";
+
+
+$myBook = array(
+	array(
+		"title"=>"The Grapes os wrath",
+		"author"=>"John Steinbeck",
+		"pubYear"=>1939
+	),array(
+		"title"=>"The Trial",
+		"author"=>"Franz Kafka",
+		"pubYear"=>1925
+	)
+);
+
+print_r($myBook);
+
+echo "Today is ".date("Y/M/D")."<br>";*/
+?>
+
+<form method="post" action="processing_registration.php">
+First name:<input type="text" name="fname"><br><br>
+Last name:<input type="text" name="lname"><br><br>
+Gender: <input type="radio" name="gender" value="female"><label>Female</label><input type="radio" name="gender" value="male"><label>male</label><br><br>
+Which course are you following at UoJ?<select name="course"><option>Computer Science</option><option>Physical Science</option><option>Bio Science</option></select><br><br>
+Password:<input type="password" name="password"><br><br>
+<button>Submit</button><button>Reset</button>
+</form>
+
+</body>
+</html>
+
